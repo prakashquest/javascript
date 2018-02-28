@@ -7,9 +7,9 @@ var addusingclosure = (function () {
     return function () {
 
         counter += 1;
-
-        var txtcounter = document.getElementById('txtcounter');
-        txtcounter.value = counter.toString();
+        
+        //var txtcounter = document.getElementById('txtcounter');
+        //txtcounter.value = counter.toString();
 
         return counter;
     };
